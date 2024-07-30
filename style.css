@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url(./images/background.jpg) no-repeat;
+    background-size: cover;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0;
+    color: white;
+    text-shadow: 1px 1px 4px whitesmoke;
+}
+img{
+    width: 50px;
+}
+.container {
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    box-shadow:inset 0 0 10px rgb(70, 70, 70);
+    background: rgba(0, 0, 0,0.8);
+    padding: 10px 30px 50px;
+}
+
+.container * {
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+}
+
+.inputs-wrapper {
+    padding: 30px 25px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+input,
+button {
+    height: 50px;
+    background-color: transparent;
+    color: #080808;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+input {
+    box-shadow:inset 0 0 4px rgb(90, 90, 90);
+    width: 60%;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+button {
+    box-shadow:inset 0 0 4px rgb(92, 92, 92);
+    color: #ffffff;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    float: right;
+}
+button p{
+    font-size:1rem ;
+}
+
+.outputs-wrapper {
+    box-shadow:inset 0 0 4px rgb(92, 92, 92);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.outputs-wrapper div {
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+
+span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.outputs-wrapper p {
+    font-size: 1rem;
+    color: #dddddd;
+    font-weight: 500;
+}
+
+.cal
+{
+    width: 30px;
+}

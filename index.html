@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Age Calculator</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Calculate Your Age</h1>
+            <img src="./images/calender.png" alt="icon">
+        </div>
+        <div class="inputs-wrapper">
+            <input type="date" id="date-input" required="">
+            <button onclick="ageCalculate()"><p>Calculate</p>
+                <img src="./images/calculate.png" class="cal" alt="icon"></button>
+        </div>
+        <div class="outputs-wrapper">
+            <div>
+                <span id="years">-</span>
+                <p>Years</p>
+            </div>
+            <div>
+                <span id="months">-</span>
+                <p>Months</p>
+            </div>
+            <div>
+                <span id="days">-</span>
+                <p>Days</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
