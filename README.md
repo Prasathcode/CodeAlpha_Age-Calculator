@@ -16,7 +16,8 @@ Simple and intuitive user interface
 
 # Usage
 
-Clone the repository to your local machine using git clone https://github.com/Prasathcode/CodeAlpha_Age-Calculator.git
+Clone the repository to your local machine using 
+"git clone https://github.com/Prasathcode/CodeAlpha_Age-Calculator.git "
 Open the index.html file in a web browser to access the age calculator
 Enter your date of birth, month, and year in the input fields
 Click the "Calculate Age" button to display your age
